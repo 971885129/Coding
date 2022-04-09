@@ -1,0 +1,27 @@
+Package: BuenColors
+Title: Plotting utils and colors for Buenrostrolab
+Description: R utility package for color mapping and plot aesthetics.
+Date: 2017-03-16
+Version: 0.5.5
+Authors@R: c(
+    person("Caleb", "Lareau", email = "caleblareau@g.harvard.edu", role = c("aut", "cre"))
+    )
+Depends:
+    MASS,
+    ggplot2,
+    grDevices,
+    graphics,
+    R (>= 3.0)
+License: MIT + file LICENSE
+LazyData: true
+Suggests:
+    knitr
+URL: https://github.com/caleblareau/BuenColors
+BugReports: https://github.com/caleblareau/BuenColors/issues
+RoxygenNote: 6.0.1
+Collate: 
+    'BuenColors.R'
+    'colors.R'
+    'plotHelp.R'
+    'cell_colors.R'
+VignetteBuilder: knitr
