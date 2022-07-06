@@ -130,6 +130,10 @@
       
 * 问题8
 
+      configure: error: --with-x=yes (default) and X11 headers/libs are not available
+      
+      https://blog.csdn.net/tandelin/article/details/118393753
+
       
 
 ## Tips
